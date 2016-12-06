@@ -12,6 +12,7 @@
 		0F8373391DEEE88600AC0335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8373371DEEE88600AC0335 /* Main.storyboard */; };
 		0F83733B1DEEE88600AC0335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F83733A1DEEE88600AC0335 /* Assets.xcassets */; };
 		0F83733E1DEEE88600AC0335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F83733C1DEEE88600AC0335 /* LaunchScreen.storyboard */; };
+		0F8373461DEEFB2300AC0335 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8373451DEEFB2300AC0335 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0F83733A1DEEE88600AC0335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F83733D1DEEE88600AC0335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F83733F1DEEE88600AC0335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8373451DEEFB2300AC0335 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				0F8373331DEEE88600AC0335 /* AppDelegate.swift */,
 				0F8373351DEEE88600AC0335 /* ViewController.swift */,
 				0F8373371DEEE88600AC0335 /* Main.storyboard */,
+				0F8373451DEEFB2300AC0335 /* ResultViewController.swift */,
 				0F83733A1DEEE88600AC0335 /* Assets.xcassets */,
 				0F83733C1DEEE88600AC0335 /* LaunchScreen.storyboard */,
 				0F83733F1DEEE88600AC0335 /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					0F83732F1DEEE88600AC0335 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -137,6 +141,7 @@
 			files = (
 				0F8373361DEEE88600AC0335 /* ViewController.swift in Sources */,
 				0F8373341DEEE88600AC0335 /* AppDelegate.swift in Sources */,
+				0F8373461DEEFB2300AC0335 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +256,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.shabby923.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -262,6 +268,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.shabby923.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -284,6 +291,7 @@
 				0F8373441DEEE88600AC0335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
